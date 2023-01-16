@@ -39,4 +39,4 @@ some of the back end technologies are
 
 FullStack Developer
 Is the type of developer that does both backend and front end
-Dev of this role are usual seniors with a number of years in the industry
+Dev of this role are usual seniors with a number of years in the industry the deal with everything from server setup, project design,server adminstration, networking, writing of databases, implementation, developing of APIs and consuming APIs and developing front ends.
