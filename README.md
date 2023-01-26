@@ -146,4 +146,146 @@ https://en.wikipedia.org/wiki/Browser_engine
 
 
 
+CORE INTERNET TECHNOLOGIES
 
+Email addresses are the most common way of communication across the internet. But before email addresses, there was postal mail. that relied on the postal address to ensure packages and mails are delivered to the intended individuals, but with advancement in internet communication there was birth of internet protocals addresses, famously known as IP addresses, the new addresses enable individuals across the internet to communicate. As postal address ip addresses can go wrong. IP addresses are the backborn for communication across the internet without them nothing is communicated by computers.
+
+There exist two types of IP addresses one being the IP version 4 and the IP version 6
+The former is the oldest the later is a new one that is better and has alot of addresses
+In IPv4 there are 4 groups of decimal number, each group has a size of 8 bits and that make up about 32bit of the size of the address number, these octates are separated from one another through the dot sign
+IPv6 has 8 groups of hexadecial numbers separated by a colon from one group to the other group. hence IPv6 has a size of 64bit which means it can accomodate more IP address than IPv4. Each group of the 8 groups has also the size of 8bits hence the hexadecimal has a size of 64bit
+
+Browsers use the internet protocal to communicate
+
+in the Transport layer there are two methods of delivering packets from one node to another
+
+The reliable one called TCP/IP and the unreliable one called the UDP/IP these protocals work with the IP protocal to deliver packets across the network. when a website is requested its requested through the HTTP protocal that is the main protocal for transfering markup files and these files are delivered to the client through the TCP and UDP protocols accordingly, when these request are sent are also sent through these protocols
+
+TCP transmission control protocol and UDP is user data gram protocol
+
+IP packets have scructure the main parts are the the IP header and the IP Payload. these are the overview structures, the IP header has source and destionation IP address and the payload contains the data that is being communicated
+
+TCP handles correct delivery of data i.e how data is arranged if it is delivered correctly or not and in order and if there are errors if they are corrected. UDP doesnt care about that. It only cares about the delivery of files hence it is used for video chats and and voice call streams, though UDP solve the corrupt packet issues but does not order them neither does it ensure they are delivered on the other end.
+
+each of these protocols a inside a payload and each protocol has its own payload.
+
+HTTP:
+
+Hypertext transport protocol is a reqiest responcse based protocol. It involve a client sending a request to the server and a response being sent back.The request is called an http request and the response is called an http response
+
+Structure of an HTTP request
+an HTTP request contain the method eaither get or post path we are requesting access to and version of http
+and other headers such as client type and the language a file should be written in when sent back to us
+
+Method describe the task the server must perform in order to complete our request example of methods that we usual have are
+1. GET - retrive the data from the server
+2. POST - sends the data back to the server
+3  PUT - updates the data to the website
+4. DELETE - deletes the data that we are trying to access
+Path is a representation of where the resource is stored on the web server
+
+HTTP response
+
+has the header and a message body that contain the response content
+on the header there contain the http status codes such as 200 which means the activity completed succesfully
+status codes range from 100 to 999
+these status codes are are grouped by purpose
+status message is the text representation of the status code
+
+Status codes are grouped into five groups which are
+100-199 are information codes (are interim request that is they tell the client to continue when more files are expected)
+200-299 are succesful codes (succesful processed status codes here one of the success status is 200 which means ok)
+300-399 are redirection codes (redirect method)
+400-499 are client error is caused by the client asking for something that is not permitted or not available for accessing from the server hence the server may return the error that this is not possible
+500-599 are server error explain is caused by the server failing to fulfilling its functionality due several reasons maybe a      method is not supported or it not understanding the request and perceive it as error from the server
+
+HTTPS:
+is just http with secure shell layer, the layer encrypt the message everytime the request is sent and the server then decrypt the file on the end and respond with the encrypted file too.
+
+INTRO TO WEB DEV TECHS
+There are essentially three technologies used to develop front ends of the website. These generally include HTML,CSS and JavaScript
+
+HTML creates the structure that is to be displayed, CSS arranges the content into presentable content that can be viewed easily and understood perfectly. JavaScript adds interactiviy and make it functional for users while they are interacting with the system. This way people get to interact with the website easily.
+
+Other protocols that we are goint to create and learn are as follows
+
+When your computer is connected to the internet it is assigned an IP address by a server called the dynamic hosting protocol protocol server, this server and the computer communicate over the UDP protocol during this process and it assigns all computers their individual IP dynamically and how to communicate between themselves. Once the computer has an IP address it can communicate with other computer on the network easily.
+
+See computers dont use words to communicate but numbers for the case of networks they use IP address to communicate and find each other on the network. when a user enter the domain name on the url bar the computer then sends a request to domain name system server asking for the IP address associated with the domain name for it to find the computer it wants to reach to cause RRC call, when it receives this response it will then send an HTTP header to the server where it is trying to request for the service then the server will respond.
+
+Other protocols are 
+IMAP internet message access protocol is a protocol used to access the email on the email server, does not delete the files on the server hence the copy is only download and it is good if you wanna have more than one device accessing the email server
+
+POP3 is a post office protocol it downloads all the email from the server and removes them from server to local storage, it is not good if you use more than one device to access your email server. version 3 is a message access protocol for email servers the difference between it and the IMAP is that POP3 deletes emails from the server and download them to the local client
+
+FTP is a file transfer protocol it is used to move files between computers that are connected on the network, this protocol is used to send,download and change files between servers and client, it is used to upload website to servers, using an ftp client that is usual located on the developer machine. example of such client are filezilla. in order for this to be possible we need the FTP server to be present on the opposite end i.e the server.
+
+SSH is a short form of secure shell is a way to login to remote server using the terminal command line interface, this method is current one replace the telnet that used to be used before, it is more prefered because it the data sent through this method is encrypted
+
+SFTP is a secure version of FTP and it encrypts the data sent between the FTP server and the client, this method is good when transfering the files that are sensitive.
+
+Web Page, Website and Web App what is the difference?
+
+A web page is a single page written with mark up language that is html and having the mark up language extension
+
+A website is a collection of web pages linked to one another using the hypertext link and all belonging to the same domain name.
+
+Hyper links or links dont have to link to the same website they can link to other websites as well and other resources.
+
+WebApp and Website are names used interchangebly, but the web app and website difference is a level of interactivity and dynamic content.
+
+Web App is interactive and a website is informative
+
+An interactive website, allow the user to send information to the server that can be used to get something to do with it.
+
+A website ont the other hand is just showing the same content regardless of whom is interacting with it.
+
+Developer tools:
+
+These are the tools that are available on the website browsers that enable developers to check on the website performance, and even why it doesnt behave as expected.
+some of the tabs and what they do are as follows
+
+The element tab shows all the html and css code that the website has and how to interact with it.
+
+The console tab shows the javascript logs from the webpage and if there are any errors in the code that is running.
+
+Sources show all the files that are now viewed, including the html,css and even javascript
+
+In the network tab you can inspect the time for http request, http headers and http responses and what content are containerd in them.
+
+Performance tab show what the website is doing, it is used to track functionalities that slows down your website and what you should do to reduce the load time
+
+Memory tab pin point parts of ur website that consume most of the resources.
+
+on the Element tab if u select an element the browser highlight it on teh view port and if you click on the element twice the browser allow you to hot edit it.
+
+FrameWorks and Libs
+
+Frameworks:
+
+Library: are reusable pieces of code that can be used for implementing common tasks
+
+Frameworks are structures that developer can write their own code to implement functionality for the framework but the framework has all its structure and methods it supports
+
+MOst frameworks use libraries, it can be libraries that came with the code or third party libraries.
+
+You must know when to use a lib and when to use a framework
+
+Libs are not opinionated and frameworks are opinionated.
+
+Framework are good for reduce development time but they also enforce the structure that is common for all devs.
+
+Sometime libs can enter into conflicts with libs.
+
+what is an API?
+
+Application programming interface: is a procedure,service offering advanced functionality with simple syntax 
+API is open for many application and use cases. common APIs are browser APIs, 
+
+APIs are a bridge between systems, it can also called middle ware, web storage API, REST API
+
+DOM API turn html into tree of objects that JS can interact
+
+Representation state transfer: is a set of principles that enable building highly efficient APIs
+
+Most REST APIs send and receive data to and from the central data server
