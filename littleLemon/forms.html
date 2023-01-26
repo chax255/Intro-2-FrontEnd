@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Lemon | form</title>
+    <style>
+        form{
+            display: flex;
+            flex-direction: column;
+            width: 35vw;
+            height: 300px;
+            margin: 1vh auto;
+            border: solid grey .1px;
+    
+        }
+        label{
+            margin: 2% auto;
+            width: 90%;
+            color: grey;
+        }
+        input{
+            margin: 2% auto;
+            width: 90%;
+            height: 35px;
+            border: solid 0.5px grey;
+        }
+        #submit{
+            margin-bottom: 7%;
+            height: 40px;
+            background-color: royalblue;
+            color: aliceblue;
+            border-radius: 5px;
+        }
+        .welcome-message{
+            text-align: center;
+            margin-top: 24vh;
+            color: grey;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="welcome-message">Little Lemon | Login</h1>
+    <form action="index.html" method="post">
+        <label for="username">Username</label>
+        <input type="text" name="username" placeholder="john">
+        <br>
+        <label for="password">Password</label>
+        <input type="password" name="password" placeholder="xxxxxxx">
+        <br>
+        <input id="submit" type="submit" value="Login">
+    </form>
+</body>
+</html>
