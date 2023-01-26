@@ -535,3 +535,15 @@ If you want to leave a comment in the code for other developers, it can be added
 <!-- This is a comment --> 
 
 The comment will not be displayed in the web browser.
+
+Intro to the DOM
+The DOM is an tree like structure of an HTML document that is exposed to by the browser that JavaScript can interact with.
+
+Each node on the tree represents a single html element that can be manipulated by javascript on an html tree
+
+the structure is like html is a root and has two child nodes which are then containing more other child elements. web pages have 100 of elements which are related to their ancestors.
+
+Uses:
+You can access the content on the html example a digital clock that is constantly updated by the js
+
+Many frameworks rely on the DOM example react 
