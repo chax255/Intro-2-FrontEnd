@@ -289,3 +289,58 @@ DOM API turn html into tree of objects that JS can interact
 Representation state transfer: is a set of principles that enable building highly efficient APIs
 
 Most REST APIs send and receive data to and from the central data server
+
+Additional Resources for Module ONE
+Learn more
+Here is a list of resources that may be helpful as you continue your learning journey.
+
+HTTP Overview (Mozilla)
+
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview
+
+Introduction to Networking by Dr.Charles R Severance
+
+https://www.amazon.com/Introduction-Networking-How-Internet-Works/dp/1511654945/
+
+Chrome Developer Tools Overview (Google)
+
+https://developer.chrome.com/docs/devtools/overview/
+
+Firefox Developer Tools User Docs  (Mozilla)
+
+https://firefox-source-docs.mozilla.org/devtools-user/index.html
+
+Getting Started with Visual Studio Code  (Microsoft)
+
+https://code.visualstudio.com/docs
+
+
+MODULE TWO:
+
+In order to build a building you need a frame from which the building will stand on. HTML stands for hypertext mark up language. Here hypertext means links and mark up means tags and elements that are used to identify content on the html document. HTML was first create by a Physist Tim Berna-Lee in 1991 while he was working at CERN. It was released together with its web browser, and server.
+
+HTML has a structure that it follows and it is saved as text file with dot html extension on it.
+
+Anatomy of an HTML document starts with a tag, a tag is a less than sign name then greater than sign together as  a single component, when tags are combined together they make up an element. Some tags have a closing tag, that is it has a less than sign together will the forward slash following it before the tag name example <name></name> tag name usual represents what it does or type of content it deals with. some tags carry content and others don't carry content if an element is not containing any content there is no need for it to have a closing tag you can just have a forward slasha the end of the name or no forward slash at all. example of elements that do not need a closing tag are the meta image and more these usually use attributes to deal with content they are representing
+
+Attributes are featuers that are written on the opening tag to add functionality to the element
+they are written in a form of key value pair separated by a an equal sign the value is usual put inside some quotes whether double or single. Some values do not need quotes especially those that require boolean values example the true and required
+
+Some of the most common tags are the paragraph tag which is written as <p></p> and the html tag written as <html></html> this is known as a root element as it borrows some ideas from the tree structure.
+
+In order to write an html document one needs to first create a html root element
+<html></html> in between the html root element there needs to be two child elements one being the head element and the second one being the body element. these two elements are siblings to one another  
+<html>
+  <head>
+  none visible content goes here man
+  </head>
+  <body>
+  visible content goes here
+  </body>
+</html>
+
+The good thing about html is that you dont need a web server to view them, you can save them as local files and view them on the web browser
+
+before you write html root element you first type the doctype declaration which notifies the browser that your about to start coding the the html.
+
+meta tag is used to write the meta data
