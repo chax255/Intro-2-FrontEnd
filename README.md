@@ -738,3 +738,8 @@ rel tells how the css file relate tot he html file
 type ins a mime type and href links the file to html
 
 CSS precedence: is a rule that govern which selector is chosen first when multiple selectors are present
+
+
+BootStrap
+Learned about BootStrap how it works, and how I can use it to build UIs quickly
+BootStrap works by using the containers that are used to contain rows and columns that are used to
