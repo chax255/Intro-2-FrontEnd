@@ -743,3 +743,12 @@ CSS precedence: is a rule that govern which selector is chosen first when multip
 BootStrap
 Learned about BootStrap how it works, and how I can use it to build UIs quickly
 BootStrap works by using the containers that are used to contain rows and columns that are used to
+created a simple website that is dependant on the bootstrap framework from this link
+
+Programming with JavaScript
+
+I have started to a second course on programming with javascript as part of 9 courses that I am supposed to study towards the react developer, road
+
+I have already explored how to declare variables using var keyword, read some data types such as string, numbers, boolean, bigInt, and also learned some operators such as +,-,*,** bitwise operators such as or ||, AND && and  ! NOT and the comaparison operators such as > greater than, < less than and the >= greater than or equal and the <= less than or equal. Also read the how to declare variables and using them after declaration, how to change the variable data, and also how to run different operations and display the result using the console log
+
+Installed nodejs on my machine so I can run commands on the terminal but also write code on VS code and run  them to receive an output while on the VS code, this has been helpful with exception of some parts that require a browser to run but I have created an html page that enable me to capture input from the browser and use it on the program. This has been helpful to help code js and get inputs fromt he browser. Did some quizzes and and I still going on more updates soon.
